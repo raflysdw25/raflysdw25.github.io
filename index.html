@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Center</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>   
+        <nav>
+            <!-- navigasi -->
+            <div class="brand-logo">
+                <img src="assets/images/brand@2x.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#about" onclick="openMenu(event,'about')" class="tablinks active">About</a></li>
+                <li><a href="#prevention" onclick="openMenu(event,'prevention')" class="tablinks">Prevention</a></li>
+                <li><a href="#symptoms" onclick="openMenu(event,'symptoms')" class="tablinks">Symptoms</a></li>
+            </ul>
+        </nav>
+        <div class="jumbotron">
+            <h1>#stayathome</h1>
+            <p>Fight the Virus, NOT the Victim</p>
+        </div>
+    </header>
+    <main>
+        <div id="content">
+            <article id="about" class="card tabcontent active">
+                <h2>About Corona Virus Disease</h2>
+                <p>
+                    Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+                </p>
+                <p>
+                    Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+                </p>
+                <p class="source">
+                    Source : <a href="#">World Health Organization</a>
+                </p>
+            </article>
+            <article id="prevention" class="card tabcontent">
+                <h2>Prevention to Corona Virus Disease</h2>
+                <div class="flex-container">
+                    <div class="flex-item card">
+                        <img src="assets/images/ic_handwash@2x.png" alt="">
+                        <h3>Wash Your Hand</h3>
+                    </div>
+                    <div class="flex-item card">
+                        <img src="assets/images/ic_coverface@2x.png" alt="">
+                        <h3>Cover your Mouth <br>
+                            and Nose</h3>
+                    </div>
+                    <div class="flex-item card">
+                        <img src="assets/images/ic_distancing@2x.png" alt="">
+                        <h3>Physical <br> Distancing</h3>
+                    </div>
+                    <div class="flex-item card">
+                        <img src="assets/images/ic_stayathome@2x.png" alt="">
+                        <h3>#StayAtHome</h3>
+                    </div>
+                </div>
+                <p class="source">
+                    Source : <a href="#">World Health Organization</a>
+                </p>
+                <p class="source">
+                    Icons made by <a href="#">Freepik</a> from <a href="#">www.flaticon.com</a>
+                </p>
+            </article>
+            <article id="symptoms" class="card tabcontent">
+                <h2>Corona Virus Diseases Symptoms</h2>
+                <div class="flex-container">
+                    <div class="flex-item card">
+                        <img src="assets/images/ic_sick@2x.png" alt="">
+                        <h3>Fever</h3>
+                    </div>
+                    <div class="flex-item card">
+                        <img src="assets/images/ic_difficultyBreathing@2x.png" alt="">
+                        <h3>Shortness of <br> Breath</h3>
+                    </div>
+                    <div class="flex-item card">
+                        <img src="assets/images/ic_sneeze@2x.png" alt="">
+                        <h3>Sore throat and <br> Runny Nose</h3>
+                    </div>
+                    <div class="flex-item card">
+                        <img src="assets/images/ic_tired@2x.png" alt="">
+                        <h3>Tiredness</h3>
+                    </div>
+                </div>
+                <p class="source">
+                    Source : <a href="#">World Health Organization</a>
+                </p>
+                <p class="source">
+                    Icons made by <a href="#">Freepik</a> from <a href="#">www.flaticon.com</a>
+                </p>
+            </article>
+        </div>
+        <aside>
+          <article id="profile" class="card">
+            <p>This webdesign made by</p>
+            <h2>Muhammad Rafly Sadewa</h2>
+            <p>
+                Made in April 2020 <br> 
+                with HTML, CSS, and Javascript
+            </p>
+            <div id="user-opinion">
+                <div class="likes">
+                    <img id="likesButton" src="assets/images/thumbs-up@2x.png" alt="">
+                    <span id="like-count">0</span>
+                </div>
+                <div class="dislikes">
+                    <img id="dislikesButton" src="assets/images/thumbs-down@2x.png" alt="">
+                    <span id="dislike-count">0</span>
+                </div>
+            </div>
+          </article>  
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; Corona Center 2020</p>
+    </footer>
+
+
+
+    <!-- scripts -->
+    <script src="assets/script.js"></script>
+</body>
+</html>
